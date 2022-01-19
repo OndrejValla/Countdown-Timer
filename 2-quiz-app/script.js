@@ -1,0 +1,36 @@
+const quizData = [{
+    question: 'How old is Ondrej?',
+    a: '25',
+    b: '32',
+    c: '39',
+    d: '46',
+    correct: 'b',
+}, {
+    question: 'What was the most used programming language in 2019?',
+    a: 'Java',
+    b: 'C',
+    c: 'Python',
+    d: 'JavaScript',
+    correct: 'd',
+}, {
+    question: 'Who is the President of the USA?',
+    a: 'Donald Trump',
+    b: 'Bill Clinton',
+    c: 'Joe Biden',
+    d: 'George Bush',
+    correct: 'c',
+}, {
+    question: 'What does HTML stands for?',
+    a: 'Hypertext Markup Language',
+    b: 'Cascading Style Sheet',
+    c: 'JASON Object Notation',
+    d: 'Health technical memoranda',
+    correct: 'a',
+}, {
+    question: 'What year was JavaScript launched?',
+    a: '1994',
+    b: '1995',
+    c: '1996',
+    d: 'None of the above',
+    correct: 'b',
+}]
