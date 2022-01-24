@@ -35,6 +35,7 @@ const quizData = [{
     correct: 'b',
 }];
 
+const quiz = document.getElementById("quiz");
 const answerEls = document.querySelectorAll(".answer");
 const questionEl = document.getElementById('question');
 const a_text = document.getElementById('a_text');
@@ -90,8 +91,8 @@ submitBtn.addEventListener('click', () => {
         if (currentQuiz < quizData.length) {
             loadQuiz();
         } else {
-            //TO DO show results
-            alert('You have finished!')
+            quiz.innerHTML = `<h2>You answered correctly ${score} out of ${quizData.length} questions!</h2>
+            <button onclick="location.reload()">Play Again</button>`;
         }
     }
 });

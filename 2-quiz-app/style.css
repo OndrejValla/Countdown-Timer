@@ -30,6 +30,8 @@ body {
 }
 
 h2 {
+    text-align: center;
+    padding: 1rem;
     margin: 0;
 }
 
@@ -61,4 +63,9 @@ button {
 
 button:hover {
     background-color: #5e2f72;
+}
+
+button:focus {
+    background-color: #664b72;
+    outline: none;
 }
